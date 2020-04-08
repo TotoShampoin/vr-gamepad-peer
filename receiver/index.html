@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/peerjs@1.0.0/dist/peerjs.min.js"></script>
+    <title>Manette</title>
+    <style>
+        html {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #pads {
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div id="peer"></div>
+    <div id="pads"></div>
+    <canvas id="gc" width="1280px" height="720px"></canvas>
+    <script src="network.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
